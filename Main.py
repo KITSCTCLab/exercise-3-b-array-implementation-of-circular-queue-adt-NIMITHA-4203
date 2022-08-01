@@ -1,7 +1,7 @@
 class MyCircularQueue:
     def __init__(self, size: int):
         # Write code here
-        self.queue = [0] * self.size
+        self.queue = [0] * size
         self.size = size
         self.front = -1
         self.rear = -1
