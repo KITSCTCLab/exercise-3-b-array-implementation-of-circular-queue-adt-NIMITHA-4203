@@ -16,7 +16,7 @@ class MyCircularQueue:
                 self.rear = 0            
             else:
                 self.rear += 1
-            self.queue.append(value)
+            self.queue[self.rear]=value
             return True
         else:
             return False
