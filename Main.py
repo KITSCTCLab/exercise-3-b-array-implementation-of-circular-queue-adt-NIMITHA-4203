@@ -40,7 +40,7 @@ class MyCircularQueue:
 
     def get_rear(self):
         # Write code here
-        if not self.rear == =1:
+        if not self.rear == -1:
             return self.queue[self.rear]
         else:
             return -1
